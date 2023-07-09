@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D_Dance_Multi_Anim</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="https://testinggrounds.info/share/threejs/three.min.js"></script>
+    <script src="https://testinggrounds.info/share/threejs/js/libs/inflate.min.js"></script>
+    <script src="https://testinggrounds.info/share/threejs/js/loaders/FBXLoader.js"></script>
+    <script src="https://testinggrounds.info/share/threejs/js/controls/OrbitControls.js"></script>
+    <script src="https://testinggrounds.info/share/threejs/js/WebGL.js"></script>
+
+    <div class="btn-group">
+      <button
+        class="button"
+        onClick="javascript:game.toggleAnimation('Chicken Dance')"
+      >
+        <a href="#">Dance#1</a>
+      </button>
+
+      <button
+        class="button"
+        onClick="javascript:game.toggleAnimation('Hip Hop Dancing')"
+      >
+        <a href="#">Dance#2</a>
+      </button>
+
+      <button
+        class="button"
+        onClick="javascript:game.toggleAnimation('Locking Hip Hop Dance')"
+      >
+        <a href="#">Dance#3</a>
+      </button>
+
+      <button
+        class="button"
+        onClick="javascript:game.toggleAnimation('Ymca Dance')"
+      >
+        <a href="#">Dance#4</a>
+      </button>
+
+      <!--<button
+        class="button"
+        onClick="javascript:game.toggleAnimation('Wave Hip Hop Dance')"
+      >
+        <a href="#">Wave hip hop</a>
+      </button>-->
+
+      <!--<button onClick="javascript:game.toggleAnimation('Silly Dancing')">
+        Silly Dance
+      </button>-->
+
+      <button
+        class="button"
+        onClick="javascript:game.toggleAnimation('Idle'); stopsong();"
+      >
+        <a href="#">Stop</a>
+      </button>
+
+      <button class="button" id="audiobtn" onClick="playsong()">
+        <a href="#">Audio</a>
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
