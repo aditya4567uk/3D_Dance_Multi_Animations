@@ -7,4 +7,4 @@ download all the files in separate folder and unzip all the contents inside main
 then run through Localhost or 127.0.0.1 not by simply clicking on index.html , it might give CORS error
 it shoul look like this.
 
-<img src="./filepath1.PNG.PNG"/>
+<img src="./filepath1.PNG"/>
